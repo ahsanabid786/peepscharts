@@ -62,7 +62,22 @@ a, a:hover, a:visited, a:active, a:focus {
   -o-border-radius: 36px;
 }
 
-
+.btn:hover, .btn-second:hover {
+  animation: pulse 1s;
+  transition: .3s;
+  -webkit-animation: pulse 1s;
+}
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  70% {
+    transform: scale(.9);
+  }
+    100% {
+    transform: scale(1);
+  }
+}
 
 .btn-second {
   font-family: 'Open Sans', sans-serif;
@@ -91,7 +106,7 @@ a, a:hover, a:visited, a:active, a:focus {
 
 .btn:focus {
   outline: none;
-  background: #030621;
+  background: linear-gradient(115deg, rgb(58, 0, 255), rgb(53, 4, 254), rgb(17, 202, 190));
   color: #fff !important;
 }
 
@@ -564,12 +579,23 @@ header.sticky .navbar-nav>li {
   font-weight: 700;
   color: #141518;
   margin-bottom: 30px;
+  display: flex;
+  align-items: center;
 }
 
-.home-why-choose-us .content-area ul li img {
+.home-why-choose-us .content-area ul li.market::before{
+  content: url('../img/24hr.png');
   margin-right: 15px;
-
 }
+.home-why-choose-us .content-area ul li.emotion::before{
+  content: url('../img/emotion-free.png');
+  margin-right: 15px;
+}
+.home-why-choose-us .content-area ul li.speed::before{
+  content: url('../img/speed.png');
+  margin-right: 15px;
+}
+
 
 /* produt-sucess */
 
@@ -750,10 +776,15 @@ header.sticky .navbar-nav>li {
 
 /* our-clients */
 
-.our-clients .clients-area{
+.our-clients .clients-area {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.our-clients .clients-area img{
+  margin-bottom: 20px;
 }
 /* unlock-potential */
 
@@ -1006,3 +1037,434 @@ footer .copyright .content .right span a:hover{
   -o-transition: 0.3s ease-in-out;
 }
 
+
+
+/* title-area */
+
+.title-area {
+  background: url('../img/title-area-bg.png') no-repeat center;
+  background-size: cover;
+  padding-top: 141px;
+}
+
+.title-area .content-area {
+  padding: 120px 0px;
+}
+
+.title-area .content-area h1 {
+  color: #fff;
+}
+
+.title-area .content-area h2 {
+  color: #fff;
+  font-size: 34px;
+  font-weight: 600;
+}
+
+.title-area .content-area p {
+  color: #fff;
+  margin-top: 30px;
+}
+
+.title-area .content-area h1 span {
+  background: linear-gradient(165deg, #3A00FF, #11CABE);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* connnect-with-us */
+
+.connect-with-us ul.contact{
+  list-style-type: none;
+  padding: 0;
+  margin-top: 36px;
+}
+
+.connect-with-us ul.contact li a{
+  font-size: 22px;
+  font-weight: 600;
+  color: #030621;
+}
+.connect-with-us ul.contact li {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 17px;
+  color: #030621;
+}
+.connect-with-us ul.contact li img{
+  margin-right: 15px;
+}
+
+.connect-with-us .form-area h3{
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.connect-with-us .form-area .form-control{
+  background-color: #F5F5F5;
+  border: none;
+  margin-top: 25px;
+  padding: 28px 30px;
+  border-radius: 40px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+}
+
+.connect-with-us .form-area textarea{
+  height: 180px;
+}
+
+.connect-with-us .form-area .button-area .btn-submit{
+  margin-top: 40px;
+  width: 180px !important;
+}
+
+
+.home-faqs.contact-faqs{
+  background-color: #F5F5F5;
+  padding-top: 0px !important;
+  margin-top: 80px;
+  margin-bottom: -80px;
+}
+.home-faqs.contact-faqs .faqs-area{
+  padding: 100px 0px;
+}
+.home-faqs.contact-faqs .accordion-button {
+  background-color: #fff;
+  border-radius: 0;
+  margin-bottom: 0px !important;
+  font-size: 22px;
+  font-weight: 600;
+}
+.home-faqs.contact-faqs .accordion .accordion-item {
+  background-color: #fff;
+  margin-bottom: 30px;
+  border: none;
+  padding: 30px;
+  border-radius: 15px;
+}
+
+/* testionials-page */
+.satisfied-clients .testimonials-area{
+  margin-top: 60px;
+}
+
+.satisfied-clients .testimonials-area .item{
+  background-color: #F5F5F5;
+  padding: 50px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  margin-bottom: 40px;
+}
+
+.satisfied-clients .testimonials-area .item img.quote{
+  width: 44px;
+  margin-bottom: 30px;
+}
+
+.satisfied-clients .testimonials-area .item .content .user{
+  display: flex;
+  align-items: center;
+  margin-top:50px;
+}
+
+.satisfied-clients .testimonials-area .item .content .user img{
+  width: 89px;
+  height: 89px;
+  margin-right: 15px;
+}
+
+.satisfied-clients .testimonials-area .item .content .user .content-lower p.name{
+  margin-bottom: 0;
+  font-size: 24px;
+  font-weight: 700;
+}
+.satisfied-clients .testimonials-area .item .content .user .content-lower p.pro{
+  font-size: 16px;
+  font-weight: 400;
+  color: #575757;
+}
+
+
+/* privacy-policy-page */
+
+.privacy-policy .content-area p.date{
+  font-size: 24px;
+  color: #141518;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.privacy-policy .content-area h3{
+  font-size: 28px;
+  font-weight: 700;
+  color: #141518;
+  margin: 60px 0px 30px 0px;
+}
+
+.privacy-policy .content-area h4{
+  font-size: 22px;
+  font-weight: 700;
+  color: #141518;
+
+}
+
+.privacy-policy .content-area p{
+  color: #575757;
+  font-size: 20px;
+}
+
+/* login and signup pages */
+
+
+
+.login-signup{
+  display: flex;
+}
+
+.login-signup .login-signup-area {
+  background-color: #FFFFFF;
+  width: 50%;
+
+}
+.login-signup .login-signup-area{
+  margin-top: 70px;
+}
+.login-signup .login-signup-area.login{
+  margin-top: 180px;
+}
+.login-signup .login-signup-area.login img.logo {
+  margin-bottom: 30px;
+  width: 350px;
+}
+.login-signup .login-signup-area img.logo {
+  margin-bottom: 30px;
+  width: 350px;
+}
+.login-signup .login-signup-area .content-area h1{
+  font-weight: 700;
+  background: linear-gradient(165deg, #3A00FF, #11CABE);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 10px;
+}
+.login-signup .login-signup-area .content-area p {
+  font-size: 20px;
+  color: #575757;
+  line-height: 30px;
+}
+.main .login-signup .bg-with-image .image-area img{
+  width: 75%;
+}
+.login-signup .login-signup-area .button-area .btn-second {
+  width: unset !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s ease-in-out;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -ms-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  padding: 10px 20px;
+}
+.login-signup .login-signup-area .button-area .btn-second:hover{
+  background-color: #030621;
+  color: #fff !important;
+  transition: 0.3s ease-in-out;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -ms-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+}
+
+.login-signup .login-signup-area .button-area .btn-second img{
+  margin-right: 20px;
+}
+.login-signup .bg-with-image {
+  background: url('../img/image-with-bg.png') no-repeat center;
+  background-position: center;
+  width: 45%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  right: -21px;
+}
+
+
+.login-signup .login-signup-area .form-area .form-control {
+  background-color: #F1F1F3;
+  padding: 28px 30px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 40px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+}
+
+.login-signup .login-signup-area .form-area .form-select {
+  background-color: #F1F1F3;
+  padding: 28px 30px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 40px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+}
+
+.login-signup .login-signup-area .form-area .password-field {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.login-signup .login-signup-area .form-area .password-field img {
+  float: right;
+  position: absolute;
+  top: 32px;
+  right: 35px;
+  width: 20px;
+}
+.login-signup .login-signup-area .form-area .select {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.login-signup .login-signup-area .form-area .select img {
+  float: right;
+  position: absolute;
+  top: 17px;
+  left: 25px;
+  width: 20px;
+}
+
+::placeholder{
+  color: #C1C1C1;
+}
+
+.form-area .send-leads{
+  display: flex;
+  gap: 25px;
+  margin-top: 10px;
+}
+
+.round {
+  position: relative;
+}
+
+.round label {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  height: 28px;
+  border-radius: 5px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 28px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.round label:after {
+  border: 2px solid #fff;
+  border-top: none;
+  border-right: none;
+  content: "";
+
+  height: 6px;
+  left: 7px;
+  opacity: 0;
+  position: absolute;
+  top: 8px;
+  transform: rotate(-45deg);
+  width: 12px;
+  -webkit-border-radius: 10p;
+  -moz-border-radius: 10p;
+  -ms-border-radius: 10p;
+  -o-border-radius: 10p;
+}
+
+.round input[type="checkbox"] {
+  visibility: hidden;
+}
+
+.round input[type="checkbox"]:checked + label {
+  background-color: #A2A2A2;
+  border-color: #C1C1C1;
+}
+
+.round input[type="checkbox"]:checked + label:after {
+  opacity: 1;
+}
+
+
+.login-signup .login-signup-area .form-area .button-area .btn-sign-up{
+  width: 100% !important;
+  margin: 30px 0px;
+}
+
+.login-signup .login-signup-area .form-area span a{
+  color: #030621;
+}
+
+.send-leads span{
+  color: #A2A2A2;
+}
+
+.remember a.forget{
+  color: #A2A2A2;
+}
+
+.login-signup .login-signup-area .form-area .button-area .btn-sign-up{
+  padding: 15px;
+}
+
+.login-signup .login-signup-area .lower p a{
+  font-weight: 700;
+  color: #030621;
+}
+
+
+.home-our-process .mobile-process{
+  display: none;
+  margin-top: 30px;
+}
+.home-our-process .mobile-process .item{
+  background-color: #F7F7F7;
+
+  padding: 30px 20px;
+  border-radius: 40px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+}
+.home-our-process .mobile-process .item h3{
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.home-our-process .mobile-process i{
+  color: #11CABE;
+  font-size: 25px;
+}
+footer .main-footer .logo-area p {
+  color: #DEDEDE;
+  margin-top: 20px;
+  width: 90%;
+}

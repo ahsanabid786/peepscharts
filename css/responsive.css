@@ -2,218 +2,100 @@
 
 @media only screen and (max-width: 1880px){
 
-    .why-popular .popular-area .item {
-        padding: 40px 30px;
-    }
+
 }
 
 
 @media only screen and (max-width: 1800px){
 
-    .home-banner .content-area .content h1 span br{
-        display: none;
+ 
+
+}
+
+@media only screen and (max-width: 1700px){
+    header .header-padding {
+        padding: 0px 60px;
     }
-
-}
-
-@media only screen and (max-width: 1755px){
- 
-}
-
-
-@media only screen and (max-width: 1683px){
-
- 
-  
-}
-
-@media only screen and (max-width: 1637px){
- 
-
-}
-
-
-@media only screen and (max-width: 1650px){
-    .navbar-nav > li {
-        padding: 20px 20px;
+    .home-why-choose-us .content-area ul li {
+        font-size: 20px;
     }
 }
+
 
 
 @media only screen and (max-width: 1600px){
-    .home-testimonials .owl-carousel .item .user-area .info p.name {
-        font-size: 21px;
+    .satisfied-clients .testimonials-area .item {
+        padding: 40px 30px;
+    }
+    .title-area .content-area {
+        padding: 100px 0px;
     }
 
-    .home-blogs .tab-content .item h3 {
-        font-size: 25px;
-            display: -webkit-box;
-            -webkit-line-clamp: 2;
-            -webkit-box-orient: vertical;
-            overflow: hidden;
-    }
-    .home-blogs .tab-content .item p {
-        width: 100%;
-    }
 
-    .connect-and-contact .form-area {
-        padding: 65px 40px;
-    }
-
-    .title-area.contact-title .content-area {
-        padding: 190px 0px 220px 0px;
-    }
-
-    .why-popular .popular-area .item {
-        padding: 40px 20px;
-    }
-
-    .why-popular .popular-area .item p {
-        font-size: 20px;
+    .home-faqs .accordion .accordion-item {
+        padding: 25px 20px;
 
     }
-    .who-can-partner .partner-area .content {
-        padding-left: 35px;
-    }
-    .how-to .items-area .item {
-        padding: 0px 0px;
-    }
-    .how-to .items-area .item .content p {
-        width: 90%;
+    .home-testimonials .owl-carousel .item {
+        padding: 50px 30px;
+
     }
 
- 
-    .title-area .content-area h1{
+    .product-sucess .content-area .tab-content .tab-pane .content h3 {
         font-size: 40px;
+
     }
 
-    .ready-to-sell .item .content-area {
-        padding: 90px 0px;
+    .home-value .content-area .items-area .item {
+        padding: 40px;
     }
+    .home-value .content-area .items-area .item h3 {
+        font-size: 28px;
+    }
+    h1 {
+        font-weight: 700;
+        font-size: 60px;
+    }
+    .home-banner .content-area h2 {
+        font-size: 30px;
 
-    .our-characterstics .chars .item .desc h3 {
-        font-size: 26px;
-        line-height: 35px;
-        margin: 15px 0px;
     }
+    .home-banner .content-area {
+        padding: 152px 0px;
+    }
+    .section h2 {
+        font-size: 55px;
+    }
+    .section-padding {
+        padding: 0px 100px;
+    }
+    header .navbar-brand img {
+        width: 220px;
 
-    .amp-pricing .price .item .button-area .magnet-button {
-        margin: 30px 0px;
-        padding: 12px 30px;
     }
-
-    .amp-pricing .price .item ul {
-        list-style-type: none;
-        margin-top: 25px;
-    }
-    .amp-pricing .price .item {
-        padding: 50px 20px;
-    }
-    .amp-pricing .price .item p{
+    .navbar-nav>li {
         font-size: 18px;
     }
 
-
-    .pricing-title-area .content-area .image-area img.hand {
-        right: 0%;
-        top: 0%;
-    }
-    .pricing-title-area .content-area {
-        padding: 100px 0px;
-    }
-    .pricing-title-area .content-area h1{
-        font-size: 50px;
-    }
-
-    .login-signup .login-signup-area .content-area p {
-        font-size: 25px;
-        line-height: 36px;
-    }
-   
-    .padding-left {
-        padding-left: 100px;
-    }
-
-    .home-platform-capabilities .content-area ul li {
-        padding: 20px 20px;
-        width: 98%;
-        position: relative;
-        align-items: center;
-    }
-  
-
-   
-
-   
-
     header .header-padding {
-        padding: 0px 100px;
+        padding: 0px 40px;
     }
-
-    .section-padding{
-        padding: 0px 100px;
-    }
-    header .main-nav {
-        padding-left: 0px;
-    }
-    .navbar-nav>li {
-        padding: 20px 15px;
-    }
-
-    header.sticky .navbar-nav>li {
-        padding: 20px 15px;
-    }
-    .home-banner .content-area h1 span {
-        font-size: 50px;
-        font-weight: 300;
-    }
-
-    .home-banner .content-area {
-        padding: 120px 0px;
-    }
-
-    .home-banner .content-area h1 span {
-        font-size: 40px;
-        line-height: 30px;
-    }
-    .home-banner .content-area h1 {
-        font-size: 50px;
-        line-height: 60px;
-    }
-
-    .home-banner .content-area .image-area img {
-        margin-bottom: -116px;
-        margin-left: 30px;
-    }
-    .home-banner .content-area .image-area .icon.slack {
-        right: 19%;
-        top: 33%;
-    }
-    .home-banner .content-area .image-area .icon.whatsapp {
-        right: 12%;
-        top: 47%;
-    }
-    .home-banner .content-area .image-area .icon.pin {
-        right: 15%;
-        top: 62%;
-    }
-    .home-banner .content-area .image-area .icon.redit {
-        right: 12%;
-        top: 75%;
+    .unlock-potential .item .content-area {
+        padding: 80px 0px;
     }
 }
 
 
 
 @media only screen and (max-width: 1500px){
-
-    
-    .navbar-nav>li>a {
-        font-size: 16px;
+    .home-why-choose-us .content-area ul li img {
+        margin-right: 15px;
+  
     }
-    header ul.nav-right a{
-        font-size: 16px;
+    footer p br {
+       display: none;
     }
+ 
 }
 
 
@@ -223,335 +105,134 @@
 
 
 @media only screen and (max-width: 1400px){
-    .pricing-title-area .content-area.blog {
-        padding: 80px 0px;
+    .satisfied-clients .testimonials-area .item {
+        padding: 40px 20px;
     }
-    .section h3 {
-        font-size: 24px;
-    }
-    footer .main-footer .lower-footer h4 {
+    .satisfied-clients .testimonials-area .item .content .user .content-lower p.name {
         font-size: 20px;
-    }
-    .title-area.contact-title .content-area {
-        padding: 145px 0px 220px 0px;
-    }
-    .title-area .content-area .image-area img {
-        z-index: 11;
-        width: 50%;
-    }
-    .title-area .content-area .content{
-        position: relative;
-        z-index: 99;
     }
     .title-area .content-area {
         padding: 80px 0px;
     }
-    .ready-to-sell .item .content-area {
-        padding: 70px 0px;
+    .accordion-button {
+        font-size: 20px;
+
     }
-    .amp-pricing .price .item .content-top p.tag {
-        font-size: 24px;
-        margin-bottom: 20px;
-    }
-    .amp-pricing .price .item .content-top h3 {
-        font-size: 33px;
-    }
-    .pricing-title-area .content-area .image-area img.hand {
-        right: 0%;
-        top: -6%;
-    }
-    .pricing-title-area .content-area h1 {
-        font-size: 45px;
-    }
-    .pricing-title-area .content-area {
-        padding: 80px 0px;
+    .home-faqs .accordion .accordion-item {
+        padding: 25px 15px;
+
     }
 
-    .login-signup .login-signup-area .content-area p {
-        font-size: 22px;
-        line-height: 30px;
+    .product-sucess .content-area .tab-content .tab-pane .content h3 {
+        font-size: 35px;
     }
-    .home-banner .content-area h1 {
-        font-size: 42px;
-        line-height: 55px;
+
+    .home-value .content-area .items-area .item {
+        padding: 40px 20px;
     }
-    .home-banner .content-area p {
-        font-size: 23px;
+
+    .home-value .content-area .items-area .item h3 {
+        font-size: 25px;
     }
-    .home-banner .content-area h1 span {
-        font-size: 36px;
+    .section-padding {
+        padding: 0px 50px;
+    }
+    .navbar-nav>li {
+        padding: 20px 12px;
+    }
+
+    header .header-padding {
+        padding: 0px 15px;
+    }
+
+    h1 {
+        font-weight: 700;
+        font-size: 55px;
+    }
+    .home-banner .content-area h2 {
+        font-size: 28px;
+    }
+    .section h2 {
+        font-size: 50px;
+    }
+    .btn-second {
+        padding: 15px 20px;
+
+    }
+    .btn {
+        padding: 15px 20px;
+
+    }
+    .home-testimonials .owl-carousel .item .content .user .content-lower p.name {
+        font-size: 20px;
+
     }
     .home-testimonials .owl-carousel .item {
         padding: 30px 20px;
-        margin-right: 20px;
+        margin-right: 15px;
     }
-    .padding-left {
-        padding-left: 50px;
-    }
-    .home-brands .items-area {
-        display: flex;
-        align-items: center;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    header .header-padding {
-        padding: 0px 50px;
-    }
-
-    .section-padding{
-        padding: 0px 50px;
-    }
-
-
-    .home-features .content p {
-        font-size: 20px;
-        line-height: 30px;
-    }
-    .home-features .content .features-area ul li {
-        font-size: 16px;
-        margin-top: 20px;
-    }
-
-
-    .home-brands .items-area .item img{
-        width: 220px;
-    }
-    .home-testimonials .owl-carousel .item .user-area .info p.name {
-        font-size: 20px;
-    }
-    .home-testimonials .owl-carousel .item .user-area .info p.company{
-        font-size: 16px;
+    .main .login-signup .bg-with-image .image-area img {
+        width: 75%;
+        margin-left: 40px;
     }
 }
 
 
 @media only screen and (max-width: 1320px){
-    table{
-        width: 1320px;
-        white-space: nowrap;
-      }
+
 }
 
 
 
 @media only screen and (max-width: 1300px){
-
-    .why-popular .popular-area .item p {
-
-        text-align: center;
-        margin-top: 20px;
-    }
-    .home-banner .content-area p {
-        font-size: 20px;
-    }
-    .section h2 {
-        font-size: 32px;
-    }
-    .more-saas-tool .content-area .items .item p {
-        font-size: 20px;
-    }
-    .why-popular .popular-area .item {
-        padding: 40px 20px;
-        flex-direction: column;
+    .home-why-choose-us .content-area ul li {
+        width: 100%;
     }
   
- 
-    .title-area .content-area h1 {
-        font-size: 45px;
-    }
-
-
-    footer .main-footer .upper-footer .links ul li {
-        padding: 0px 18px;
-    }
-    .pricing-title-area .content-area .image-area img.hand {
-        right: -2%;
-        top: -8%;
-    }
-    .pricing-title-area .content-area .image-area img.dollar {
-        left: 0%;
-        bottom: 0;
-    }
-    .amp-pricing .price .item {
-        padding: 38px 15px;
-    }
-    .amp-pricing .price .item .content-top h3 {
-        font-size: 35px;
-    }
 }
 
 @media only screen and (max-width: 1250px){
-    .home-banner .content-area .image-area .anim .main{
-    display: none;
-      }
-
-      .home-banner .content-area .image-area .anim .mobile{
-        display: block;
-          }
-          
-      
-      
-.home-banner .content-area .image-area .icon.fb {
-    display: none;
-  }
-  
-  
-  .home-banner .content-area .image-area .icon.insta {
-    display: none;
-  }
-  .home-banner .content-area .image-area .icon.twitter {
-    display: none;
-  }
-  
-  .home-banner .content-area .image-area .icon.linkedin {
-    display: none;
-  }
-  
-  .home-banner .content-area .image-area .icon.slack {
-    display: none;
-  }
-  
-  .home-banner .content-area .image-area .icon.whatsapp {
-    display: none;
-  }
-  .home-banner .content-area .image-area .icon.pin {
-    display: none;
-  }
-  
-  .home-banner .content-area .image-area .icon.redit {
-    display: none;
-  }
+    
 }
 
 
 @media only screen and (max-width: 1200px){
-    .pricing-title-area  .content-area.blog h1 {
-        font-size: 40px;
+    footer .main-footer .logo-area img.logo {
+        width: 230px;
     }
-    table th.compare {
-        font-weight: 700;
-        font-size: 22px;
-    }
-    table td.email {
-        font-size: 20px;
-    }
-    .api-integrations .content-area .content {
-        display: grid;
-    }
-    .section h3 {
-        font-size: 22px;
-    }
-    .more-saas-tool .content-area .items .item {
-        padding: 30px 20px;
-    }
-    .home-blogs .tab-content .item h3 {
-        font-size: 22px;
-    }
-
-    .connect-and-contact .form-area {
-        padding: 50px 30px;
-    }
-    .title-area.contact-title .content-area {
-        padding: 120px 0px 220px 0px;
-    }
-
- 
-
-
-    .title-area .content-area h1 {
-        font-size: 35px;
-    }
-    .our-characterstics .chars .item .desc h3 {
-        font-size: 22px;
-        line-height: 29px;
-    }
-    .our-characterstics .chars .item {
-        padding: 0px 0px;
-    }
-
-    .price {
-        margin-top: 50px;
-    }
-    .amp-pricing .price .item {
-        margin-top: 30px;
-    }
-    .amp-pricing .price .item .content-top h3 {
+    .product-sucess .content-area .tab-content .tab-pane .content h3 {
         font-size: 30px;
     }
-    .amp-pricing .price .item p {
-        font-size: 17px;
-    }
-    .amp-pricing .price .item li {
-        font-size: 18px;
-        margin-bottom: 15px;
-    }
-    .pricing-title-area .content-area .image-area img.hand {
-        right: 0%;
-        top: -16%;
-    }
-    .pricing-title-area .content-area .image-area img.dollar {
-        left: 0%;
-        bottom: -20%;
-    }
-    .pricing-title-area .content-area h1 {
-        font-size: 40px;
-    }
-    
-
-    .pricing-title-area .content-area p {
-        font-size: 22px;
-    }
-    .home-banner {
-        background-position: inherit;
-    }
-    .home-banner .content-area h1 {
-        font-size: 44px;
-        line-height: 43px;
-    }
-    .padding-left {
-        padding-left: 30px;
-    }
-    .home-faqs .faqs-area .accordion .accordion-item {
-        padding: 20px 15px;
-    }
-    .home-features .content .features-area ul li {
-        width: 100%;
-    }
-
-    header .header-padding {
+    .section-padding {
         padding: 0px 30px;
     }
-
-    .section-padding{
-        padding: 0px 30px;
+    header ul.nav-right {
+        display: none;
     }
     header ul.nav-right .btn-sign-up {
-       display: none;
+        display: none;
+    }
+    .home-banner .content-area {
+        padding: 130px 0px;
+    }
+    h1 {
+        font-size: 50px;
+    }
+    .home-banner .content-area h2 {
+        font-size: 26px;
+    }
+    .section h2 {
+        font-size: 40px;
     }
 
-
-    footer {
-        margin-top: 70px;
+    .home-about-us .content-area p br{
+        display: none;
     }
-    footer .main-footer .upper-footer {
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
+    .home-value .content-area .items-area .item {
+        padding: 30px 20px;
     }
-
-    footer .main-footer .upper-footer .links{
-        margin: 30px 0px;
-    }
-
-    footer .main-footer .lower-footer{
-        text-align: center;
-    }
-    footer .copyright .content {
-        flex-direction: column;
-    }
-
-    footer .copyright .content .right{
-        margin-top: 20px;
+    .connect-with-us .form-area h3 {
+        font-size: 32px;
     }
 }
 
@@ -560,13 +241,7 @@
 }
 
 @media only screen and (max-width: 1100px){
-    .excellence .items-area {
-        flex-wrap: wrap;
-    }
-
-    .excellence .items-area .item{
-        margin-top: 25px;
-    }
+  
 }
 
 
@@ -577,446 +252,241 @@
 
 
 @media only screen and (max-width: 992px){
-    .pricing-title-area {
-        padding-top: 75px;
+    .login-signup .login-signup-area img.logo {
+        width: 230px;
     }
-    table br{
-        display: block;
+    .login-signup .login-signup-area {
+        background-color: #FFFFFF;
+        width: 100%;
     }
-    .pricing-title-area  .content-area.blog h1 {
-        font-size: 35px;
-    }
-    .amp-pricing .price .item .content-top p {
-        font-size: 17px;
-    }
-    .home-testimonials .owl-carousel {
-        margin-top: 30px;
-    }
-    footer {
-        margin-top: 65px;
-    }
-    .section h2 {
-        font-size: 30px;
-    }
-    .section {
-        padding-top: 65px;
-    }
-    .home-banner .content-area .image-area img {
-        margin-bottom: -116px;
-        margin-left: 0px;
-    }
-    br{
+    .login-signup .bg-with-image{
         display: none;
     }
-    .home-platform-capabilities {
-        margin-top: 60px;
+    .privacy-policy .content-area h3 {
+        font-size: 26px;
+        margin: 30px 0px 30px 0px;
     }
-    .how-leadbud-works .steps img{
-        display: none;
-    }
-    .how-leadbud-works .mobile-steps{
-        margin-top: 60px;
-        display: block;
-      }
-      .how-leadbud-works .mobile-steps .step img {
-        transform: rotate(90deg);
-        -webkit-transform: rotate(90deg);
-        -moz-transform: rotate(90deg);
-        -ms-transform: rotate(90deg);
-        -o-transform: rotate(90deg);
-        width: 45%;
-        margin-top: -100px;
-    }
-    .nav-tabs {
-        border-bottom: unset;
-        gap: 20px;
-        margin-top: 40px;
-        justify-content: center;
-    }
-    .connect-and-contact .content ul.connect li {
-        display: flex;
-        align-items: center;
-        margin-bottom: 30px;
-        flex-direction: column;
-    }
-    .connect-and-contact .content ul.connect li::before{
-        margin-right: 0;
-        margin-bottom: 10px;
-    }
-
-    .connect-and-contact .form-area {
-        padding: 50px 15px;
-        margin-top: 50px;
-    }
-
-    .title-area.contact-title .content-area {
-        padding: 100px 0px;
-        padding-top: 78px;
-    }
-    .why-popular .popular-area {
-        margin-top: 25px;
-    }
-    .why-popular .content-area {
-        padding: 70px 0px;
-    }
-    .why-popular .popular-area .item {
-        padding: 30px 15px;
-        flex-direction: column;
-    }
-    .who-can-partner .partner-area .content p {
-        color: #C1C1C1;
-        font-size: 18px;
-    }
-    .who-can-partner .partner-area .content {
-        padding: 20px 0px;
-        margin-bottom: 40px;
-    }
-    .title-area .content-area {
-        padding: 60px 0px;
-    }
-    .title-area {
-        padding-top: 78px;
-    }
-    .title-area .content-area .content {
-        text-align: center;
-    }
-
-    .title-area .content-area h1 {
-        font-size: 35px;
-    }
-    .title-area .content-area .image-area{
-        text-align: center;
-    }
-    .title-area .content-area .image-area img {
-       display: none;
-    }
-
-    .ready-to-sell .item .content-area {
-        padding: 50px 15px;
-    }
-    .ready-to-sell .item .content-area p br{
-        display: none;
-    }
-    .excellence .items-area .item {
-        width: 150px;
-    }
-    .our-characterstics .chars {
-        margin-top: 40px;
-    }
-    .our-characterstics {
-        margin-top: 60px;
-    }
-    .our-characterstics .content-area {
-        padding: 70px 0px;
-    }
-    .our-characterstics .chars .item {
-        margin-top: 30px;
-    }
-    .pricing-title-area .content-area h1 {
-        font-size: 40px;
-    }
-    .pricing-title-area .content-area h2 {
-        font-size: 22px;
-    }
-    .pricing-title-area .content-area p {
+    .privacy-policy .content-area p.date {
         font-size: 20px;
     }
-    .pricing-title-area .content-area .image-area img.hand {
-        right: 0;
-        top: -19%;
+    .satisfied-clients .testimonials-area .item .content .user .content-lower{
+        text-align: left;
     }
-    .pricing-title-area .content-area .image-area img.dollar {
-        left: 0%;
-        bottom: -13%;
+    .satisfied-clients .testimonials-area .item .content .user .content-lower p.name {
+        font-size: 18px;
+    }
+    .satisfied-clients .testimonials-area .item {
+        padding: 30px 15px;
     }
 
-    .how-leadbud-workd .content-area p br{
+    .satisfied-clients .testimonials-area .item .content .user {
+        margin-top: 30px;
+        justify-content: center;
+    }
+
+    .connect-with-us .form-area h3 {
+        font-size: 25px;
+    }
+    .title-area {
+        padding-top: 70px;
+    }
+    .home-faqs.contact-faqs .accordion-button {
+        font-size: 20px;
+
+    }
+    .home-faqs.contact-faqs .accordion .accordion-item {
+        padding: 20px 15px;
+
+    }
+    .title-area .content-area p br{
+       display: none;
+    }
+    .connect-with-us ul.contact li img {
+       display: none;
+    }
+    .accordion-body p{
+        text-align: left;
+    }
+    .home-why-choose-us .content-area{
+        margin-top: 40px;
+    }
+    .home-why-choose-us .content-area ul li {
+        width: 48%;
+    }
+    .home-value .content-area {
+        padding: 60px 0px;
+    }
+    .home-value .content-area .items-area .item {
+        padding: 30px 15px;
+        margin-bottom: 30px;
+    }
+    .home-value {
+        background: none;
+        background-color: #F5F5F5;
+        margin-top: 60px;
+    }
+    header .navbar{
+        padding: 20px 0px;
+    }
+    .home-banner {
+        padding-top: 50px;
+    }
+    h1 {
+        font-size: 45px;
+    }
+    .home-banner .content-area h2 {
+        font-size: 22px;
+    }
+    .home-banner .content-area p br{
         display: none;
     }
 
-    footer .main-footer .lower-footer {
-        padding: 30px 0px;
+    .home-about-us .image-area img{
+        margin-top: 40px;
+    }
+    .section {
+        padding-top: 60px;
+        text-align: center;
+    }
+    .section h2 {
+        font-size: 35px;
+    }
+
+    .product-sucess .content-area .tab-content .tab-pane .content {
+        text-align: center;
+    }
+    .product-sucess .content-area .tab-content .tab-pane .content h3 br{
+        display: none;
+    }
+
+    .product-sucess .content-area .tab-content .tab-pane .content h3 {
+        font-size: 25px;
+    }
+    .product-sucess .content-area .tab-content .tab-pane .image-area img{
+        margin-top: 40px;
     }
     .home-testimonials .owl-carousel .owl-nav {
         display: none;
     }
     .home-testimonials .owl-carousel .item {
         padding: 30px 15px;
-        margin: 0px 10px;
+        margin-right: 0px;
     }
-    .padding-left {
-        padding-left: 0px;
+    .home-testimonials .owl-carousel .item img.quote {
+        width: 44px;
+        margin: 0px auto 30px auto;
     }
-
-    .home-faqs .content-area p br{
-        display: none;
-    }
-    .home-faqs .content {
-        padding: 70px 0px;
-    }
-    .home-faqs .faqs-area .accordion .accordion-item .accordion-body{
-        text-align: left;
-    }
-    .accordion-button {
-        font-size: 20px;
-    }
-    .data-to-revenue .image-area{
-        text-align: center;
-        margin-top: 40px;
-    }
-
-    .api-integrations .content-area {
-        padding: 70px 0px;
-    }
-    .home-platform-capabilities .content-area .image-area img {
-    margin-top: 40px;
-    }
-    .float-end {
-        float: unset!important;
-    }
-    .api-integrations .content-area .content {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        flex-direction: column;
-    }
-    .more-saas-tool .content-area {
-        padding: 70px 0px;
-    }
-    .home-platform-capabilities .content-area {
-        padding: 70px 0px;
-    }
-    .home-platform-capabilities .content-area ul li {
-        padding: 20px 15px;
-        width: 100%;
-        position: relative;
-    }
-    .more-saas-tool .content-area .items .item {
-        background-color: #fff;
-        padding: 30px 15px;
+    .home-testimonials .owl-carousel .item .content .user {
         margin-top: 30px;
-    }
-
-
-    .home-features .content .features-area ul {
-        display: inline-block;
-    }
-    .home-banner .content-area .items {
-        display: inline-block;
-        gap: 20px;
-    }
-    .more-saas-tool {
-        margin-top: 60px;
-    }
-    .home-features .image-area {
-        text-align: center;
-        margin-bottom: 60px;
-    }
-
-
-
-    .home-banner {
-        padding-top: 78px;
-        text-align: center;
-    }
-    .home-banner .content-area .items {
         justify-content: center;
     }
-    header ul.nav-right {
-        margin-bottom: 0;
-        display: grid !important;
-        align-items: center;
-        gap: 0px;
-        justify-content: flex-start;
-        padding-left: 10px;
-    }
-    header ul.nav-right a{
-        font-weight: 500;
-        font-size: 18px;
+    .home-testimonials .content-area {
+        padding: 60px 0px;
     }
 
-    header ul.nav-right .sales::before {
-        display: none;
-    }
-    header ul.nav-right .login::before {
-        display: none;
-    }
-    header .header-padding {
-        padding: 0px 15px;
-    }
-
-    .section-padding{
-        padding: 0px 15px;
-    }
-    header ul.nav-right .sales {
-        margin-bottom: 10px;
-    }
-    header .navbar-brand img {
-        width: 200px;
-    }
-    nav.navbar{
-        padding: 20px 0px;
-    }
-    .home-banner {
-        padding-top: 50px;
-        text-align: center;
-    }
-    .home-banner .content-area {
-        padding: 70px 0px;
-    }
-    .owl-carousel .owl-stage {
-        margin: 20px 0px;
-    }
-    .home-faqs .faqs-area .accordion .accordion-item {
-        padding: 15px 10px;
-    }
-    .home-faqs .faqs-area .accordion-item .accordion-button::after {
-        font-size: 18px;
-    }
-    .accordion-button {
-        font-size: 17px;
-    }
-    .data-to-revenue .image-area img {
-        width: 80%;
-        float: unset;
-    }
-    .why-popular .popular-area .item p {
-        font-size: 19px;
-    }
+   footer{
+    text-align: center;
+   }
+   footer .main-footer .logo-area ul.social {
+    justify-content: center;
+}
+footer .main-footer ul.links li {
+    width: 100%;
+}
+footer .main-footer {
+    padding: 50px 0px 50px 0px;
+}
+footer .main-footer .logo-area p {
+    width: 100%;
+}
+.unlock-potential .item .content-area {
+    padding: 60px 0px;
+}
 }
 
 
 
 @media only screen and (max-width: 768px){
-    .pricing-title-area .content-area p {
-        font-size: 17px;
-        line-height: 30px;
-    }
-    .pricing-title-area .content-area h1 {
-        font-size: 35px;
-    }
-    .pricing-title-area .content-area h2 {
-        font-size: 20px;
-    }
-    .how-leadbud-works .mobile-steps .step img {
-        margin-top: -50px;
-    }
 
-    .title-area.contact-title .content-area {
-        padding: 80px 0px;
-    }
-
-    .how-to .items-area {
-        margin-top: 30px;
-    }
-    .how-to .items-area .item {
-        margin-top: 30px;
-    }
-    .how-to .items-area {
-        margin-top: 50px;
-        flex-direction: column;
-    }
-    .pricing-title-area .content-area .image-area img.hand {
-        right: 0;
-        top: -7%;
-        width: 20%;
-    }
-    .pricing-title-area .content-area h1 {
-        font-size: 35px;
-    }
-    .pricing-title-area .content-area .image-area img.dollar {
-        left: 0%;
-        bottom: 0%;
-        width: 20%;
-    }
-    .login-signup .login-signup-area {
-        width: 100%;
-    }
-    .login-signup .bg-with-image{
+    .connect-with-us p br{
         display: none;
     }
+    .connect-with-us ul.contact li {
+        font-size: 18px;
 
- 
-    .home-testimonials .owl-carousel .item .user-area {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
     }
-    .home-testimonials .owl-carousel .item i.quote {
-        position: unset !important;
+    .home-faqs.contact-faqs .accordion-button {
+        font-size: 18px;
     }
-    .home-testimonials .owl-carousel .item .user-area .info p.name {
-        font-size: 22px;
-        margin-top: 10px;
-    }
-    .home-testimonials .owl-carousel .item .user-area img {
-        margin-top: 10px;
-    }
-}
-
-
-@media only screen and (max-width: 600px){
-    .pricing-title-area  .content-area.blog h1 {
-        font-size: 30px;
-    }
-    .title-area .content-area h1 {
-        font-size: 30px;
-    }
-    .home-platform-capabilities .content-area ul li::after {
-        display: none;
-    }
-    .home-banner .content-area h1 span {
-        font-size: 35px;
-    }
-    .home-banner .content-area h1 {
+    h1 {
         font-size: 40px;
     }
-    .home-banner .content-area p {
-        font-size: 20px;
-    }
     .section h2 {
-        font-size: 28px;
+        font-size: 30px;
     }
-
+    .home-value .content-area .items-area .item h3 {
+        font-size: 22px;
+    }
+    
+.home-our-process .mobile-process{
+    display: block;
+  }
+  .home-our-process .process-area{
+    display: none;
+  }
+  .home-why-choose-us .content-area ul li {
+    width: 100%;
+}
 }
 
-@media only screen and (max-width: 536px){
-        footer .copyright .content .right img{
-            margin-bottom: 15px;
-        }
+
+@media only screen and (max-width: 650px){
+    
+    .product-sucess .content-area .nav-tabs {
+        width: 100%;
+        background-color: transparent;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    h1 {
+        font-size: 35px;
+    }
+    .section h2 {
+        font-size: 26px;
+    }
+    .section h2 span {
+        font-size: 22px;
+    }
+    .home-value .content-area .items-area .item h3 {
+        font-size: 20px;
+    }
+    .home-our-process .mobile-process .item h3 {
+        font-size: 20px;
+        font-weight: 700;
+    }
+    footer .main-footer h4 {
+        font-size: 20px;
+    }
+   
 }
 
 
 @media only screen and (max-width: 500px){
-    .how-leadbud-works .mobile-steps .step h4 {
+    h1 {
+        font-size: 30px;
+    }
+    .home-banner .content-area h2 {
         font-size: 20px;
     }
-
-    .title-area.contact-title .content-area {
-        padding: 60px 0px;
+    p, li {
+        font-size: 17px;
     }
-    .why-popular .popular-area .item p {
-        font-size: 18px;
+    footer .copyright .content span {
+        font-size: 16px;
     }
-    .amp-pricing .switch-area .bill-label p {
-        font-size: 20px;
-        margin: 0px 5px;
-    }
-    footer .main-footer .upper-footer .links ul li {
-        display: block;
-        padding: 0px 0px !important;
-        text-align: center;
-    }
-    .home-features .content .features-area ul li {
-        font-size: 18px;
-    }
-
-    .home-brands .items-area .item img{
-        width: 150px;
-    }
-    .home-faqs .faqs-area .accordion-item .accordion-button::after {
-        position: absolute;
-        right: 0;
+    .title-area .content-area h1 br{
+    display: none;
     }
 
 }
@@ -1028,38 +498,13 @@
 
 
 @media only screen and (max-width: 430px){
-    .pricing-title-area .content-area .image-area img.hand {
-        right: 0;
-        top: 0%;
-        width: 20%;
-    }
-    .pricing-title-area .content-area .image-area img.dollar {
-        left: 0%;
-        bottom: 0%;
-        width: 20%;
-    }
-    .pricing-title-area {
-        padding-top: 78px;
-    }
-    .section h2 {
-        font-size: 26px;
-    }
+   
 }
 
 
 @media only screen and (max-width: 400px){
 
-    .login-signup p{
-        font-size: 18px;
-    }
-    
-    .login-signup .login-signup-area .content-area p {
-        font-size: 18px;
-    }
-    .login-signup .login-signup-area .button-area .btn-second {
-        font-size: 18px;
-        padding: 15px 30px;
-    }
+   
 }
 
 
@@ -1076,28 +521,7 @@
 
 
 @media (max-width: 992px) {
-    .pricing-title-area .content-area.blog {
-        padding: 60px 0px;
-    }
-    .login-signup .login-signup-area.login {
-        margin-top: 30px;
-    }
-    .login-signup .login-signup-area .content-area p {
-        font-size: 20px;
-        line-height: 28px;
-    }
-    .login-signup .login-signup-area .content-area h1 {
-        font-size: 28px;
-    }
-    .login-signup .login-signup-area {
-        padding: 90px 0px 0px 0px;
-    }
-    footer .main-footer .lower-footer ul li a {
-        font-size: 16px;
-    }
-    footer .copyright .content span {
-        font-size: 16px;
-    }
+
 
     /* style mobile nav */
 
