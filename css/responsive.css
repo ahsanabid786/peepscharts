@@ -252,6 +252,9 @@
 
 
 @media only screen and (max-width: 992px){
+    .login-signup .login-signup-area.login {
+        margin-top: 130px;
+    }
     .login-signup .login-signup-area img.logo {
         width: 230px;
     }
